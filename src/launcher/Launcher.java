@@ -28,6 +28,7 @@ public class Launcher {
 		AbstractHero hero = factory.getAbstractHero();
 		AbstractVillano villano = factory.getAbstractVillano();
 		
+		System.out.println("LA BATALLA FINAL\n");//Agregado por Juan Barrera
 		System.out.println("La batalla será: ");
 		System.out.println("Hero:\n"+hero.darPresentacion());
 		System.out.println("VS");
